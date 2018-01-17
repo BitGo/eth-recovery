@@ -1,0 +1,24 @@
+{
+  "description": "BitGo Javascript eth recovery tool",
+  "main": "./src/index.js",
+  "keywords": [
+    "bitgo",
+    "bitcoin",
+    "bitgojs"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BitGo/bitgo-eth-recovery.git"
+  },
+  "scripts": {
+    "recover": "node index.js"
+  },
+  "dependencies": {
+    "lodash": "4.13.1",
+    "ethereumjs-abi": "~0.6.2",
+    "ethereumjs-util": "~4.4.1",
+    "bignumber.js": "~4.0.2",
+    "secp256k1": "3.2.5",
+    "bitgo-bitcoinjs-lib": "https://github.com/BitGo/bitcoinjs-lib.git#54619798a2c4ec37bea8be3c68e50880ca7fbc15"
+  }
+}
